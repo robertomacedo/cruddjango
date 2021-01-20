@@ -4,6 +4,6 @@ on: push
 jobs:
   build:
     name: CrudDjango Build
-    runs-on: ubutun
+    runs-on: ubuntu
     steps:
       - uses: actions/checkout@v1
