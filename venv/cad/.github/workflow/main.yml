@@ -1,0 +1,9 @@
+name: CrudDjango
+on: push
+
+jobs:
+  build:
+    name: CrudDjango Build
+    runs-on: ubutun
+    steps:
+      - uses: actions/checkout@v1
